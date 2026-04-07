@@ -1,1 +1,1 @@
-<h1>Hoy es lunes</h1>
+<h1>Ayer fue lunes, hoy martes</h1>
