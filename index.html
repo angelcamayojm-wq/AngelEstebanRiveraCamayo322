@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portafolio web de Angel Esteban Rivera Camayo, estudiante de Análisis y Desarrollo de Software." />
+  <meta name="author" content="Angel Esteban Rivera Camayo" />
+  <title>Angel Esteban Rivera Camayo | Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-glow page-glow-one" aria-hidden="true"></div>
+  <div class="page-glow page-glow-two" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Navegación principal">
+      <a class="brand" href="#top" aria-label="Ir al inicio">
+        <span class="brand-icon">AR</span>
+        <span>Angel Rivera</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu">
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+
+      <button class="theme-toggle" type="button" aria-label="Cambiar tema">
+        <span class="theme-icon">🌙</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-padding">
+      <div class="container hero-grid">
+        <article class="hero-copy reveal">
+          <p class="eyebrow">👋 Hola, soy estudiante de software</p>
+          <h1>
+            Angel Esteban Rivera Camayo
+            <span class="gradient-text" data-typewriter="Desarrollo web,Git y GitHub,Frontend creativo,Código limpio"></span>
+          </h1>
+          <p class="hero-description">
+            Estoy construyendo mi camino como desarrollador, creando proyectos web modernos,
+            aprendiendo buenas prácticas y convirtiendo ideas en interfaces claras, rápidas y agradables.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Ver proyectos</a>
+            <a class="btn btn-secondary" href="https://github.com/angelcamayojm-wq" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+
+          <div class="stats" aria-label="Resumen del portafolio">
+            <div>
+              <strong>HTML</strong>
+              <span>Estructura</span>
+            </div>
+            <div>
+              <strong>CSS</strong>
+              <span>Diseño</span>
+            </div>
+            <div>
+              <strong>JS</strong>
+              <span>Interacción</span>
+            </div>
+          </div>
+        </article>
+
+        <aside class="hero-card reveal delay-1" aria-label="Tarjeta de perfil">
+          <div class="avatar-orbit">
+            <div class="avatar">👨‍💻</div>
+          </div>
+          <h2>Frontend en progreso</h2>
+          <p>Aprendiendo, practicando y subiendo proyectos con GitHub.</p>
+          <div class="code-card" aria-label="Fragmento de código decorativo">
+            <span>const developer = {</span>
+            <span>&nbsp;&nbsp;name: 'Angel',</span>
+            <span>&nbsp;&nbsp;focus: 'Web',</span>
+            <span>&nbsp;&nbsp;status: 'learning 🚀'</span>
+            <span>};</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section-padding" id="about">
+      <div class="container two-columns">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Sobre mí</p>
+          <h2>Una base más profesional para tu repositorio.</h2>
+        </div>
+        <div class="content-card reveal delay-1">
+          <p>
+            Este repositorio fue mejorado para funcionar como una landing page personal.
+            Ahora tiene diseño responsivo, animaciones, navegación, modo oscuro y una estructura
+            de archivos más clara para seguir creciendo.
+          </p>
+          <p>
+            La idea es que puedas usarlo como carta de presentación, practicar Git/GitHub y mostrar
+            tu progreso como estudiante de Análisis y Desarrollo de Software.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding alt-section" id="skills">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">Habilidades</p>
+          <h2>Tecnologías que estás fortaleciendo</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <span class="skill-icon">🏗️</span>
+            <h3>HTML</h3>
+            <p>Semántica, estructura y contenido accesible.</p>
+            <div class="progress"><span data-progress="85"></span></div>
+          </article>
+          <article class="skill-card reveal delay-1">
+            <span class="skill-icon">🎨</span>
+            <h3>CSS</h3>
+            <p>Diseño responsivo, animaciones y estilo visual.</p>
+            <div class="progress"><span data-progress="78"></span></div>
+          </article>
+          <article class="skill-card reveal delay-2">
+            <span class="skill-icon">⚡</span>
+            <h3>JavaScript</h3>
+            <p>Interactividad, eventos y manipulación del DOM.</p>
+            <div class="progress"><span data-progress="70"></span></div>
+          </article>
+          <article class="skill-card reveal delay-3">
+            <span class="skill-icon">🌿</span>
+            <h3>GitHub</h3>
+            <p>Ramas, commits, colaboración y documentación.</p>
+            <div class="progress"><span data-progress="75"></span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Proyectos</p>
+          <h2>Ideas listas para expandirse</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-topline">
+              <span>🌦️</span>
+              <small>Frontend</small>
+            </div>
+            <h3>App del clima</h3>
+            <p>Aplicación para consultar clima usando HTML, CSS, JavaScript y una API externa.</p>
+            <a href="https://github.com/angelcamayojm-wq/App-Clima-Api" target="_blank" rel="noreferrer">Ver repositorio →</a>
+          </article>
+
+          <article class="project-card reveal delay-1">
+            <div class="project-topline">
+              <span>🧪</span>
+              <small>Práctica</small>
+            </div>
+            <h3>Laboratorio Git</h3>
+            <p>Repositorio para practicar ramas, cambios, commits, documentación y flujo de trabajo.</p>
+            <a href="arka2.html">Ver página secundaria →</a>
+          </article>
+
+          <article class="project-card reveal delay-2">
+            <div class="project-topline">
+              <span>🚀</span>
+              <small>Próximo</small>
+            </div>
+            <h3>Nuevo proyecto</h3>
+            <p>Espacio reservado para agregar una calculadora, to-do list, dashboard o portafolio completo.</p>
+            <a href="#contact">Proponer idea →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding alt-section" id="contact">
+      <div class="container contact-card reveal">
+        <div>
+          <p class="eyebrow">Contacto</p>
+          <h2>Construyamos el siguiente proyecto.</h2>
+          <p>
+            Sigue mejorando este repositorio con nuevos componentes, capturas, despliegue en GitHub Pages
+            y más proyectos reales.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="https://github.com/angelcamayojm-wq" target="_blank" rel="noreferrer">Abrir GitHub</a>
+          <button class="btn btn-secondary copy-command" type="button" data-copy="git clone https://github.com/angelcamayojm-wq/AngelEstebanRiveraCamayo322.git">
+            Copiar clone
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" type="button" aria-label="Volver arriba">↑</button>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="current-year"></span> Angel Esteban Rivera Camayo. Hecho con HTML, CSS y JavaScript.</p>
+      <a href="#top">Volver al inicio</a>
+    </div>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
